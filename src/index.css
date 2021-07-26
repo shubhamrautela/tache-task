@@ -186,6 +186,12 @@ form{
     display: flex;
     flex-direction: column;
 }
+.marker{
+    width: 10px;
+    height: 10px;
+    background-color: darkred;
+    border-radius: 50%;
+}
 .album{
     display: flex;
     flex-direction: column;
@@ -249,6 +255,8 @@ form{
     width: 200px;
     height: 200px;
 }
+
+
 
 @media screen and (max-width: 500px) {
     .nav-links{
